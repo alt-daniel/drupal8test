@@ -14,7 +14,8 @@
         "drupal/xmlsitemap": "^1.0@alpha",
         "drupal/ctools": "^3.2",
         "drupal/entityreference": "1.x-dev",
-        "drupal/paragraphs": "^1.6"
+        "drupal/paragraphs": "^1.6",
+        "drupal/search_api": "^1.12"
     },
     "replace": {
         "drupal/core": "^8.6"
