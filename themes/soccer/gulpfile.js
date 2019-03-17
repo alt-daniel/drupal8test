@@ -143,7 +143,7 @@ gulp.task('watch', function(){
     livereload.listen();
 
     gulp.watch('./themes/soccer/sass/**/*.scss', gulp.series('sass'));
-    gulp.watch('./src/js/**/*.js', gulp.series('eslint'));
+    // gulp.watch('./src/js/**/*.js', gulp.series('eslint'));
     gulp.watch(['./themes/soccer/css/style.css', './**/*.html.twig', './js/*.js'], function (files){
         livereload.changed(files)
     });
