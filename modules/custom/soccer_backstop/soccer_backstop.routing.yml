@@ -1,0 +1,7 @@
+soccer_backstop.settings:
+  path: '/test/backstop'
+  defaults:
+    _controller: '\Drupal\soccer_backstop\Controller\Backstop::content'
+    _title: 'Backstop test'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,6 @@
+name: Soccer Backstop module
+description: testing a page for all content types
+package: Custom
+
+type: module
+core: 8.x
