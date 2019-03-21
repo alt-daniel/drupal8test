@@ -43,5 +43,6 @@ sites/simpletest
 
 .idea/*
 
+modules/contrib/devel
 
 

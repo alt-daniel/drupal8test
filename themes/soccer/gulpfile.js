@@ -20,7 +20,7 @@ gulp.task('imagemin', function () {
 
 
 gulp.task('sass', function () {
-    gulp.src('./src/sass/**/*.scss')
+    return gulp.src('./src/sass/**/*.scss')
         .pipe(sourcemaps.init())
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(autoprefixer('last 2 version'))

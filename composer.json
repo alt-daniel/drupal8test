@@ -15,7 +15,9 @@
         "drupal/ctools": "^3.2",
         "drupal/entityreference": "1.x-dev",
         "drupal/paragraphs": "^1.6",
-        "drupal/search_api": "^1.12"
+        "drupal/search_api": "^1.12",
+        "drupal/ds": "^3.3",
+        "drupal/devel": "^2.0"
     },
     "replace": {
         "drupal/core": "^8.6"
